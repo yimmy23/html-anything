@@ -133,7 +133,7 @@ if (rootPkg) {
 if (nextPkg) {
   const scripts = nextPkg.scripts ?? {};
   const requiredScripts: Record<string, string> = {
-    dev: "next dev",
+    dev: "next",
     build: "next build",
     start: "next start",
     typecheck: "tsc --noEmit",
